@@ -1,0 +1,71 @@
+/* BASIC STYLES HERE */
+/* BASIC STYLES HERE */
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    }
+    .quote{
+    background-color: rgba(141, 139, 34, 0.327);
+    
+    }
+    
+    .note{
+        background-color:rgba(52, 47, 47, 0.554) ;
+    }
+    
+    .clock{
+        background-color:rgba(63, 56, 56, 0.588) ;
+    }
+    
+    .glassCard{
+    
+    background: rgba(150, 165, 115, 0.627);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(233, 249, 91, 0.387);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(244, 249, 99, 0.3);
+    
+    }
+    .off-bg{
+        background-size: cover;
+        background-position: right, 55rem;
+    background-repeat:no-repeat ;}
+    
+.weatherF{
+    visibility: visible;
+    opacity: 1;
+}
+.weatherF:hover + .weatherC{
+    visibility: visible;
+   
+    }
+
+
+    .quoteAuthor{
+        text-shadow: 0px 0px 3px black;
+        }
+        
+        .quoteAuthor:hover + .quoteContent{
+          visibility: visible;
+          opacity: 1;
+          
+        }
+    
+        .noteHeight {
+            height: 70%;
+          }
+        
+        .quoteContent{
+          visibility: hidden;
+          opacity: 1;
+          backdrop-filter: blur(50px);
+          border: 1px rgba(255, 255, 255, 0.409) solid;
+          border-radius: 3px;
+          text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.617);
+          text-decoration: solid;
+          
+          
+        }
